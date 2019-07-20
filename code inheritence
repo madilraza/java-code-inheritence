@@ -1,0 +1,21 @@
+class Developer{
+  public void writeCode(){
+  // writeCode method
+  
+}
+class BackendDeveloper extends Developer{
+  public void writeCode(){
+  // writeCode method
+  }
+}
+Class run{
+  public static void main (String args[]){
+    Developer developerObject = new Developer()
+	// writeCode method in class Developer will be executed
+    developerObject.writeCode();
+   
+    BackendDeveloper backendDeveloperObj = new BackendDeveloper();
+    // writeCodemethod in class BackendDeveloper will be executed
+    backendDeveloperObj.writeCode();
+  }
+}
